@@ -1,0 +1,5 @@
+{
+    "require": {
+        "spatie/temporary-directory": "^2.1"
+    }
+}
