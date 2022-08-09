@@ -6,6 +6,7 @@ use Kanata\Annotations\Plugin;
 use Kanata\Annotations\Description;
 use Kanata\Annotations\Author;
 use VideoMetadata\Commands\GetMetadata;
+use VideoMetadata\Commands\UpdateMetadata;
 
 /**
  * @Plugin(name="VideoMetadata")
@@ -29,6 +30,7 @@ class VideoMetadata implements KanataPluginInterface
     {
         add_filter('commands', function($app) {
             $app->add(new GetMetadata);
+            $app->add(new UpdateMetadata);
             return $app;
         });
     }

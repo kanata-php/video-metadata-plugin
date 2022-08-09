@@ -31,10 +31,8 @@ php kanata vm:get-metadata --video=/full/path/to/video
 
 ### Update Metadata
 
-> TODO
-
 ```shell
-php kanata vm:update-metadata --video=/full/path/to/video --metadata=title:"John Doe\'s Vacation",year:2022
+php kanata vm:update-metadata --video=/full/path/to/video --field="title" --value="John Doe\'s Vacation"
 ```
 
 ## TODO
