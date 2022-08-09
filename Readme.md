@@ -18,7 +18,7 @@ php kanata plugin:activate VideoMetadata
 
 ### Install ffmpeg
 
-For this plugin, you need to install `ffmpeg` on your system.
+For this plugin, you need to install `ffmpeg` and `AtomicParsley` on your system.
 
 
 ## Commands
